@@ -30,7 +30,7 @@ body {
 
 .header-right {
     float: right;
-    margin: 30px 0;
+    margin: 30px 0 0 0;
 }
 
 .header-right li {
