@@ -80,12 +80,32 @@ body {
 
 
 .menu li a {
-    color: #595C5E;
+    color: rgba(0, 14, 20, 0.3);
     font-family: 'Maven Pro', sans-serif;
     font-weight: 800;
     text-transform: uppercase;
-    color: #fff;
+    position: relative;
+    display: inline-block;
 }
+
+
+.main-menu li a::before {
+    color: #fff;
+    content: attr(data-hover);
+    position: absolute;
+    -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+    -moz-transition: -moz-transform 0.3s, opacity 0.3s;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.main-menu li a:hover::before, 
+.main-menu li a:focus::before {
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    transform: scale(0.9);
+    opacity: 0;
+}
+
 
 .off-canvas-absolute {
     background: #133A4D;
@@ -106,4 +126,48 @@ body {
     padding:40px 15px;
 }
 
+
+
+
+
+
+
+/* itens */
+
+
+.packages-itens {
+    margin: 40px 0;
+}
+
+.packages-itens .item {
+    background: #fff;
+    box-shadow: 0 0px 4px 0 rgba(151,151,151,0.20);
+    transition: all 0.3s;
+}
+
+.packages-itens .item:hover {
+    box-shadow: 0 0px 40px 0 rgba(151,151,151,0.30);
+
+}
+
+.item .entry--item {
+    padding: 10px 15px 0 15px;
+}
+
+
+.item .item-image {
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    width: 100%;
+    display: block;
+    background-size: 100% auto;
+    transition: all .8s ease    
+}
+
+.item .item-image:before {
+    content: ' ';
+    display: block;
+    padding-top: 60%;
+}
 
