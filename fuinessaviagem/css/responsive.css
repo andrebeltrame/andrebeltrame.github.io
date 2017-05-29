@@ -7,6 +7,20 @@
     .icon-mobile {
         display: block;
     }
+    
+    .header-logo img { 
+        max-width: 100px;
+        margin: 10px 0 0 0;
+    }
+    
+    .header-right {
+        margin: 10px 0 0 0;
+    }
+    
+    .header-right li {
+        
+    }
+
 }
 
 /* Small */
@@ -18,7 +32,38 @@
         display: block;
     }
     
+    .header-logo {
+        float: none;
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+    }
     .header-logo img { 
-        max-width: 100px;    
+        max-width: 110px;
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .header-right {
+        float: none;
+        margin:15px 0 0 0;
+    }
+    .header-right  span {
+        display: none;
+    }
+    
+    .header-right li {
+        min-width: 100px;
+        padding-left: 20px;
+        margin: 0 0 0 10px;
+    }
+    .header-right li p {
+        font-size: .9em;
+    }
+    
+    .header-right li img {
+        width: 12px;
+        bottom: 5px;
     }
 }
