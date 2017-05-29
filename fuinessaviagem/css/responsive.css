@@ -1,0 +1,24 @@
+/* MEDIUM */
+
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+    .main-menu  ul {
+        display: none;
+    }
+    .icon-mobile {
+        display: block;
+    }
+}
+
+/* Small */
+@media screen and (max-width: 39.9375em) {
+    .main-menu ul {
+        display: none;
+    }
+    .icon-mobile {
+        display: block;
+    }
+    
+    .header-logo img { 
+        max-width: 100px;    
+    }
+}

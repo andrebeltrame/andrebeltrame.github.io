@@ -3,7 +3,7 @@
 /* Header */
 
 body {
-    font-family: 'Helvetica, Arial';
+    font-family: "Proxima Nova", "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
 
 .pane-header {
@@ -16,6 +16,15 @@ body {
 .header-logo img {
     max-width: 200px;
     float: left;
+}
+
+.icon-mobile {
+    display: none;
+    float: right;
+    padding: 10px 5px;
+    padding: 10px 20px;
+    font-family: 'Maven Pro', sans-serif;
+
 }
 
 .main-menu {
@@ -32,3 +41,17 @@ body {
     font-weight: 800;
     text-transform: uppercase;
 }
+
+
+
+/* Container */
+
+.container {
+    background: #fff;
+    box-shadow: 0 1px 11px 0 rgba(179,179,179,0.10);
+    max-width: 82rem;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+
