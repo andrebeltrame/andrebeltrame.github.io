@@ -4,6 +4,21 @@
 
 body {
     font-family: "Proxima Nova", "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    animation: fadein 1s;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+.position-left {
+    transform: translateX(-250px)    
 }
 
 
@@ -14,6 +29,15 @@ h4,
 h5,
 h6 {
     font-family: 'Maven Pro', sans-serif;   
+}
+
+
+.button {
+    background-color: #00C2D9;
+}
+
+.button:hover {
+    background-color: #164053;
 }
 
 .pane-header {
@@ -193,7 +217,7 @@ h6 {
 }
 
 .item .entry--item {
-    padding: 10px 15px 15px 15px;
+    padding: 10px 15px 10px 15px;
 }
 
 .entry--item a {
@@ -204,6 +228,8 @@ h6 {
     font-weight: 400;
     font-size: 1.2em;
     color: #5B5858;
+    min-height: 48px;
+    overflow: hidden;
 }
 
 .entry--item h5 {
@@ -217,7 +243,11 @@ h6 {
 
 .entry--item button {
     float: right;
-    margin: 15px 0 0 0;
+    margin: 35px 0 0 0;
+    font-family: 'Maven Pro', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .7rem!important;
 }
 
 
@@ -229,7 +259,7 @@ h6 {
     display: block;
     font-size: .4em;
     font-weight: 400;
-    letter-spacing: inherit;
+    letter-spacing: 0px!important;
     color: #5B5858;
 }
 
@@ -237,7 +267,7 @@ h6 {
     display: block;
     font-size: .4em;
     font-weight: 400;
-    letter-spacing:inherit;
+    letter-spacing:0px!important;
     color: #5B5858;
 }
 
