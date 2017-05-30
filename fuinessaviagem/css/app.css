@@ -376,3 +376,35 @@ h6 {
     padding-top: 60%;   
 }
 
+
+.fn--motor .tabs-title>a {
+    background: #26617D;
+    color: #fff;
+    font-family: 'Maven Pro', sans-serif;
+    text-transform: uppercase;
+     padding: 1.25rem 1.62rem;
+    font-size: .90rem;
+    font-weight: 700;
+}
+
+.fn--motor .tabs-title>a:focus, 
+.fn--motor .tabs-title>a[aria-selected=true] {
+    background: #317799;
+}
+
+.fn--motor .tabs-panel {
+    background: #317799;
+    border: 0;
+    position: relative;
+    left: -1px;  
+}
+
+.fn--motor .tabs {
+    border:none;
+    color: #fff;
+}
+
+.fn--motor label {
+    color: #fff;
+    font-family: 'Maven Pro', sans-serif;   
+}
