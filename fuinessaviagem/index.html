@@ -11,8 +11,8 @@
         <link href="https://fonts.googleapis.com/css?family=Maven+Pro:400,700" rel="stylesheet">
     </head>
     <body>
-        <div class="off-canvas-wrapper">
-        <div class="off-canvas-absolute position-left" id="offCanvasLeftSplit1" data-off-canvas="">
+    <div class="off-canvas-wrapper">
+        <div class="off-canvas-absolute position-left" id="offCanvasLeftSplit1" data-off-canvas>
             <ul class="">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Blog</a></li>
@@ -26,272 +26,352 @@
             <button class="close-button" aria-label="Fechar" type="button" data-close="">
             <span aria-hidden="true">&times;</span></button>
         </div>
-        <div class="off-canvas-content" data-off-canvas-content="">
-        <header id="header">
-            <div class="pane-header">
+        <div class="off-canvas-content" data-off-canvas-content>
+            <header id="header">
+                <div class="pane-header">
+                    <div class="row">
+                        <div class="large-12 columns">
+                            <a class="header-logo" href="/">
+                            <img src="img/logo-fuinessa.png" alt="Fui Nessa Viagem" />
+                            </a>
+                            <ul class="header-right">
+                                <li>
+                                    <p><i>41</i>4109-1133</p>
+                                    <span>TELEFONE</span>
+                                    <img src="img/icon-telephone.svg">
+                                </li>
+                                <li>
+                                    <p><i>41</i>99111-3886</p>
+                                    <span>WHATSAPP</span>
+                                    <img src="img/icon-whatsapp.svg">
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <p>FACEBOOK</p>
+                                        <span>/FUINESSAVIAGEM</span>
+                                        <img src="img/icon-facebook.svg">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-menu">
+                    <nav class="row">
+                        <ul class="menu align-left">
+                            <li><a data-hover="Home" href="#">Home</a></li>
+                            <li><a data-hover="Blog" href="#">Blog</a></li>
+                            <li><a data-hover="Pacotes" href="#">Pacotes</a></li>
+                            <li><a data-hover="Beto Carrero" href="#">Beto Carrero</a></li>
+                            <li><a data-hover="Oktoberfest" href="#">Oktoberfest</a></li>
+                            <li><a data-hover="Barretos"href="#">Barretos</a></li>
+                            <li><a data-hover="Cruzeiros" href="#">Cruzeiros</a></li>
+                            <li><a data-hover="Contato" href="#">Contato</a></li>
+                        </ul>
+                        <a class="icon-mobile" data-toggle="offCanvasLeftSplit1">Navegue pelo site</a>
+                    </nav>
+                </div>
+            </header>
+            <div class="container">
+                <div class="row">
+                    <div  class="large-3 columns hide-for-small-only">
+                        <div class="fn--motor hide-for-small-only">
+                            <ul class="tabs" data-tabs id="fn-motor">
+                                <li class="tabs-title is-active"><a href="#panel1" aria-selected="true">Bate-Volta</a></li>
+                                <li class="tabs-title"><a href="#panel2">Hospedagem</a></li>
+                            </ul>
+                            <div class="tabs-content" data-tabs-content="fn-motor">
+                                <div class="tabs-panel is-active" id="panel1">
+                                    <form>
+                                        <label>
+                                        Data de entrada:
+                                        <input type="text" />
+                                        </label>
+                                        <label>
+                                        Data de saida:
+                                        <input type="text" />
+                                        </label>
+                                    </form>
+                                </div>
+                                <div class="tabs-panel" id="panel2">
+                                    <form>
+                                        <label>
+                                        Data de entrada:
+                                        <input type="text" />
+                                        </label>
+                                        <label>
+                                        Data de saida:
+                                        <input type="text" />
+                                        </label>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="large-6 small-12 columns">
+                        <img src="img/img.jpg" />
+                    </div>
+                    <div class="large-3 columns">
+                        <div class="medium-element">
+                            <img src="img/small.jpg" />
+                        </div>
+                        <div class="medium-element">
+                            <img src="img/small-2.jpg" />
+                        </div>
+                    </div>
+                </div>
+                <!-- heading  index-->
+                <div class="packages-itens">
+                    <h4 class="heading--title">
+                        <span>Veja aqui</span>
+                        Mais Roteiros
+                    </h4>
+                    <div class="row">
+                        <div class="large-3 columns">
+                            <div class="item">
+                                <a href="#">
+                                    <span style="background-image: url('img/pk.jpg')" class="item-image"></span>
+                                    <div class="entry--item">
+                                        <h3>Parque Aquático Cascanéia</h3>
+                                        <button class="button tiny">Confira</button>
+                                        <h5 class="price">
+                                        <span class="h--priced">à partir de:</span>
+                                        R$135,00
+                                        <span class="solded">2xR$75,00 sem juros</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="large-3 columns">
+                            <div class="item">
+                                <a href="#">
+                                    <span style="background-image: url('img/pk.jpg')" class="item-image"></span>
+                                    <div class="entry--item">
+                                        <h3>Parque Aquático Cascanéia</h3>
+                                        <button class="button tiny">Confira</button>
+                                        <h5 class="price">
+                                        <span class="h--priced">à partir de:</span>
+                                        R$135,00
+                                        <span class="solded">2xR$75,00 sem juros</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="large-3 columns">
+                            <div class="item">
+                                <a href="#">
+                                    <span style="background-image: url('img/pk.jpg')" class="item-image"></span>
+                                    <div class="entry--item">
+                                        <h3>Parque Aquático Cascanéia</h3>
+                                        <button class="button tiny">Confira</button>
+                                        <h5 class="price">
+                                        <span class="h--priced">à partir de:</span>
+                                        R$135,00
+                                        <span class="solded">2xR$75,00 sem juros</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="large-3 columns">
+                            <div class="item">
+                                <a href="#">
+                                    <span style="background-image: url('img/pk.jpg')" class="item-image"></span>
+                                    <div class="entry--item">
+                                        <h3>Parque Aquático Cascanéia</h3>
+                                        <button class="button tiny">Confira</button>
+                                        <h5 class="price">
+                                        <span class="h--priced">à partir de:</span>
+                                        R$135,00
+                                        <span class="solded">2xR$75,00 sem juros</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--/home 1-->
+                <div class="packages-itens">
+                    <div class="row">
+                        <div class="large-3 columns">
+                            <div class="item">
+                                <a href="#">
+                                    <span style="background-image: url('img/pk.jpg')" class="item-image"></span>
+                                    <div class="entry--item">
+                                        <h3>Parque Aquático Cascanéia</h3>
+                                        <button class="button tiny">Confira</button>
+                                        <h5 class="price">
+                                        <span class="h--priced">à partir de:</span>
+                                        R$135,00
+                                        <span class="solded">2xR$75,00 sem juros</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="large-3 columns">
+                            <div class="item">
+                                <a href="#">
+                                    <span style="background-image: url('img/pk.jpg')" class="item-image"></span>
+                                    <div class="entry--item">
+                                        <h3>Parque Aquático Cascanéia</h3>
+                                        <button class="button tiny">Confira</button>
+                                        <h5 class="price">
+                                        <span class="h--priced">à partir de:</span>
+                                        R$135,00
+                                        <span class="solded">2xR$75,00 sem juros</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="large-6 columns">
+                            <a href="#">
+                            <img src="img/banner-namorados.jpg" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
                 <div class="row">
                     <div class="large-12 columns">
-                        <a class="header-logo" href="/">
-                        <img src="img/logo-fuinessa.png" alt="Fui Nessa Viagem" />
-                        </a>
-                        <ul class="header-right">
-                            <li>
-                                <p><i>41</i>4109-1133</p>
-                                <span>TELEFONE</span>
-                                <img src="img/icon-telephone.svg">
-                            </li>
-                            <li>
-                                <p><i>41</i>99111-3886</p>
-                                <span>WHATSAPP</span>
-                                <img src="img/icon-whatsapp.svg">
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <p>FACEBOOK</p>
-                                    <span>/FUINESSAVIAGEM</span>
-                                    <img src="img/icon-facebook.svg">
-                                </a>
-                            </li>
-                        </ul>
+                        <div class="ct-links">
+                            <p>VEJA MAIS PACOTES EM:</p>
+                            <ul>
+                                <li>
+                                    <a href="#">Beto Carrero</a>
+                                </li>
+                                <li>
+                                    <a href="#">OctoberFest</a>
+                                </li>
+                                <li>
+                                    <a href="#">Barretos</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
+                <div class="row">
+                    <h4 class="heading--title a--top">
+                        <span>CONFIRA O BLOG</span>
+                        Fui Nessa Viagem
+                    </h4>
+                </div>
+                <div class="blog-posts">
+                    <div class="row">
+                        <div class="large-3 columns">
+                            <a href="#">
+                                <div style="background-image: url('img/pk.jpg')" class="item-posts-image"></div>
+                                <p>Conheça os 5 Brinquedos Mais Radicais do Parque Beto Carrero</p>
+                            </a>
+                        </div>
+                        <div class="large-3 columns">
+                            <a href="#">
+                                <div style="background-image: url('img/pk.jpg')" class="item-posts-image"></div>
+                                <p>Conheça os 5 Brinquedos Mais Radicais do Parque Beto Carrero</p>
+                            </a>
+                        </div>
+                        <div class="large-3 columns">
+                            <a href="#">
+                                <div style="background-image: url('img/pk.jpg')" class="item-posts-image"></div>
+                                <p>Conheça os 5 Brinquedos Mais Radicais do Parque Beto Carrero</p>
+                            </a>
+                        </div>
+                        <div class="large-3 columns">
+                            <a href="#">
+                                <div style="background-image: url('img/pk.jpg')" class="item-posts-image"></div>
+                                <p>Conheça os 5 Brinquedos Mais Radicais do Parque Beto Carrero</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!--/container site-->
             </div>
-            <div class="main-menu">
-                <nav class="row">
-                    <ul class="menu align-left">
-                        <li><a data-hover="Home" href="#">Home</a></li>
-                        <li><a data-hover="Blog" href="#">Blog</a></li>
-                        <li><a data-hover="Pacotes" href="#">Pacotes</a></li>
-                        <li><a data-hover="Beto Carrero" href="#">Beto Carrero</a></li>
-                        <li><a data-hover="Oktoberfest" href="#">Oktoberfest</a></li>
-                        <li><a data-hover="Barretos"href="#">Barretos</a></li>
-                        <li><a data-hover="Cruzeiros" href="#">Cruzeiros</a></li>
-                        <li><a data-hover="Contato" href="#">Contato</a></li>
-                    </ul>
-                    <a class="icon-mobile" data-toggle="offCanvasLeftSplit1">Navegue pelo site</a>
-                </nav>
-            </div>
-        </header>
-        <div class="container">
-        <div class="row">
-            <div  class="large-3 columns hide-for-small">
-                <div class="fn--motor">
-                    <ul class="tabs" data-tabs id="fn-motor">
-                        <li class="tabs-title is-active"><a href="#panel1" aria-selected="true">Bate-Volta</a></li>
-                        <li class="tabs-title"><a href="#panel2">Hospedagem</a></li>
-                    </ul>
-                    <div class="tabs-content" data-tabs-content="fn-motor">
-                        <div class="tabs-panel is-active" id="panel1">
-                            
-                            
-                            <form>
+            <!--canvas site-->
+            
+            <div class="bar-follow">
+                <div class="row">
+                    <div class="large-6 columns">
+                        <form>
+                        <p class="white">Receba dicas, novidades, ofertas e encontre seu próximo destino!</p>
+                        <div class="row">
+                            <div class="medium-6 columns news-footer">
                                 <label>
-                                    Data de entrada:
-                                    <input type="text" />
+                                <input type="text" placeholder=".medium-6.columns">
                                 </label>
-                                
-                                 <label>
-                                    Data de saida:
-                                    <input type="text" />
+                            </div>
+                            <div class="medium-6 columns">
+                                <label>
+                                <input type="text" placeholder=".medium-6.columns">
                                 </label>
-                            </form>
-                            
-                            
-                        </div>
-                        <div class="tabs-panel" id="panel2">
-                            <form>
-                                 <label>
-                                    Data de entrada:
-                                    <input type="text" />
-                                </label>
-                                
-                                 <label>
-                                    Data de saida:
-                                    <input type="text" />
-                                </label>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="large-6 small-12 columns">
-                <img src="img/img.jpg" />
-            </div>
-            <div class="large-3 columns">
-                <div class="medium-element">
-                    <img src="img/small.jpg" />
-                </div>
-                <div class="medium-element">
-                    <img src="img/small-2.jpg" />
-                </div>
-            </div>
-        </div>
-        <div class="packages-itens">
-            <h4 class="heading--title">
-                <span>Veja aqui</span>
-                Mais Roteiros
-            </h4>
-            <div class="row">
-                <div class="large-3 columns">
-                    <div class="item">
-                        <a href="#">
-                            <span style="background-image: url('img/pk.jpg')" class="item-image"></span>
-                            <div class="entry--item">
-                                <h3>Parque Aquático Cascanéia</h3>
-                                <button class="button tiny">Confira</button>
-                                <h5 class="price">
-                                <span class="h--priced">à partir de:</span>
-                                R$135,00
-                                <span class="solded">2xR$75,00 sem juros</span>
                             </div>
-                        </a>
+                        </div>
+                     
+                    </div>
+                    
+                    <div class="large-6 columns white">
+                        <small>COMPRE AGORA PELO TELEFONE</small>
+                        
+                        eeeee
                     </div>
                 </div>
-                <div class="large-3 columns">
-                    <div class="item">
-                        <a href="#">
-                            <span style="background-image: url('img/pk.jpg')" class="item-image"></span>
-                            <div class="entry--item">
-                                <h3>Parque Aquático Cascanéia</h3>
-                                <button class="button tiny">Confira</button>
-                                <h5 class="price">
-                                    <span class="h--priced">à partir de:</span>
-                                    R$135,00
-                                    <span class="solded">2xR$75,00 sem juros</span>
-                                </h5>
-                            </div>
-                        </a>
+                
+            </div>
+            <!--/bar follow-->
+            
+            <footer id="footer">
+                <div class="row">
+                    <div class="large-2 columns">
+                        <h4>FUI NESSA VIAGEM</h4>
+                        Quem somos
+                        Depoimentos
+                        Blog
+                        Excursao Beto Carrero
+                        Excursao Oktober Fest
+                        Pacote para Barretos 
+                        Fale Conosco
+                        Siga no Facebook
+                    </div>
+                    <div class="large-2 columns">
+                        <h4>ROTEIROS EXCLUSIVOS</h4>
+                        Quem somos
+                        Depoimentos
+                        Blog
+                        Excursao Beto Carrero
+                        Excursao Oktober Fest
+                        Pacote para Barretos 
+                        Fale Conosco
+                        Siga no Facebook
+                    </div>
+                    <div class="large-4 columns">
+                        <h4>CONDIÇÕES E PREÇOS ESPECIAIS</h4>
+        
+                    </div>
+                    <div class="large-4 columns">
+                        <h4>Facebook</h4>
+        
                     </div>
                 </div>
-                <div class="large-3 columns">
-                    <div class="item">
-                        <a href="#">
-                            <span style="background-image: url('img/pk.jpg')" class="item-image"></span>
-                            <div class="entry--item">
-                                <h3>Parque Aquático Cascanéia</h3>
-                                <button class="button tiny">Confira</button>
-                                <h5 class="price">
-                                    <span class="h--priced">à partir de:</span>
-                                    R$135,00
-                                    <span class="solded">2xR$75,00 sem juros</span>
-                                </h5>
-                            </div>
-                        </a>
+                
+                <div class="row">
+                    <div class="large-12 columns">
+                     <div class="seo-footer">   
+                    <p>Um Pacote de Viagens para chamar de seu! A CVC Viagens levanta a bandeira de que Viajar é incrível, e com liberdade de escolha torna-se ainda melhor. Por este motivo a CVC reserva este espaço para que você possa montar um pacote diferenciado , que tenha como principal característica sua autonomia. Os Pacotes CVC oferecem para você o fundamental para sua viagem: Passagem Aérea, traslado, hotel e como bons anfitriões, escolhemos o melhor dia para apresentar a você os principais pontos turísticos da cidade. É muito simples encontrar um Pacote perfeito para você: Basta inserir seu local de origem e destino , a melhor data para sua viagem, a quantidade de pessoas e clicar em Buscar. Pronto! Você verá as melhores opções de pacotes de viagem, com ótimos preços e condições. Confira, e agende sua viagem!</p>
+                     </div>
+
                     </div>
                 </div>
-                <div class="large-3 columns">
-                    <div class="item">
-                        <a href="#">
-                            <span style="background-image: url('img/pk.jpg')" class="item-image"></span>
-                            <div class="entry--item">
-                                <h3>Parque Aquático Cascanéia</h3>
-                                <button class="button tiny">Confira</button>
-                                <h5 class="price">
-                                    <span class="h--priced">à partir de:</span>
-                                    R$135,00
-                                    <span class="solded">2xR$75,00 sem juros</span>
-                                </h5>
-                            </div>
-                        </a>
+                    
+                    <div class="row">
+                        <div class="large-12 columns">
+                            <p><small>Fui Nessa Viagem 2017         contato@fuinessaviagem.com       </small></p>
+                        </div>
                     </div>
-                </div>
-            </div>
+                    
+                    
+            
+                
+            </footer>
+            
+            
         </div>
-        <div class="packages-itens">
-        <div class="row">
-            <div class="large-3 columns">
-                <div class="item">
-                    <a href="#">
-                        <span style="background-image: url('img/pk.jpg')" class="item-image"></span>
-                        <div class="entry--item">
-                            <h3>Parque Aquático Cascanéia</h3>
-                            <button class="button tiny">Confira</button>
-                            <h5 class="price">
-                            <span class="h--priced">à partir de:</span>
-                            R$135,00
-                            <span class="solded">2xR$75,00 sem juros</span>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="large-3 columns">
-                <div class="item">
-                    <a href="#">
-                        <span style="background-image: url('img/pk.jpg')" class="item-image"></span>
-                        <div class="entry--item">
-                            <h3>Parque Aquático Cascanéia</h3>
-                            <button class="button tiny">Confira</button>
-                            <h5 class="price">
-                                <span class="h--priced">à partir de:</span>
-                                R$135,00
-                                <span class="solded">2xR$75,00 sem juros</span>
-                            </h5>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="large-6 columns">
-                <a href="#">
-                <img src="img/banner-namorados.jpg" />
-                </a>
-            </div>
-        </div>
-        <div class="row">
-            <div class="large-12 columns">
-                <div class="ct-links">
-                    <p>VEJA MAIS PACOTES EM:</p>
-                    <ul>
-                        <li>
-                            <a href="#">Beto Carrero</a>
-                        </li>
-                        <li>
-                            <a href="#">OctoberFest</a>
-                        </li>
-                        <li>
-                            <a href="#">Barretos</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <h4 class="heading--title">
-                <span>CONFIRA O BLOG</span>
-                Fui Nessa Viagem
-            </h4>
-        </div>
-        <div class="blog-posts">
-            <div class="row">
-                <div class="large-3 columns">
-                    <a href="#">
-                        <div style="background-image: url('img/pk.jpg')" class="item-posts-image">
-                        </div>
-                        <p>Conheça os 5 Brinquedos Mais Radicais do Parque Beto Carrero</p>
-                    </a>
-                </div>
-                <div class="large-3 columns">
-                    <a href="#">
-                        <div style="background-image: url('img/pk.jpg')" class="item-posts-image">
-                        </div>
-                        <p>Conheça os 5 Brinquedos Mais Radicais do Parque Beto Carrero</p>
-                    </a>
-                </div>
-                <div class="large-3 columns">
-                    <a href="#">
-                        <div style="background-image: url('img/pk.jpg')" class="item-posts-image">
-                        </div>
-                        <p>Conheça os 5 Brinquedos Mais Radicais do Parque Beto Carrero</p>
-                    </a>
-                </div>
-                <div class="large-3 columns">
-                    <a href="#">
-                        <div style="background-image: url('img/pk.jpg')" class="item-posts-image">
-                        </div>
-                        <p>Conheça os 5 Brinquedos Mais Radicais do Parque Beto Carrero</p>
-                    </a>
-                </div>
-            </div>
-        </div>
+        <!--/off canvas wp-->
         <script src="js/vendor/jquery.js" type="text/javascript"></script>
         <script src="js/vendor/what-input.js" type="text/javascript"></script>
         <script src="js/vendor/foundation.js" type="text/javascript"></script>
