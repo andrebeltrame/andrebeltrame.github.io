@@ -96,6 +96,7 @@ h6 {
     font-family: 'Maven Pro', sans-serif;
     font-weight: 800;
     color: #fff;
+    text-shadow: 0px 1px 0px rgba(16, 16, 16, 0.5);
     margin: 0;
 }
 
@@ -393,12 +394,12 @@ h6 {
 
 .fn--motor .tabs-title>a:focus, 
 .fn--motor .tabs-title>a[aria-selected=true] {
-    background: #317799;
+    background: #234656;
 }
 
 .fn--motor .tabs-panel,
 .fn--motor .tabs-content {
-    background: #317799;
+    background: #234656;
     border: 0;
     position: relative;
 
