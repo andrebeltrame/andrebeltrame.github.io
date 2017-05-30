@@ -330,3 +330,30 @@ h6 {
     opacity: .7;
 }
 
+.blog-posts {
+    margin: 10px 0;
+}
+
+
+.blog-posts p {
+    color: #666767;
+    font-size: .9em;
+}
+
+.item-posts-image {
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    width: 100%;
+    display: block;
+    background-size: 100% auto;
+    transition: all .8s ease;
+    margin: 0 0 10px 0;
+}
+
+.item-posts-image:before {
+    content: ' ';
+    display: block;
+    padding-top: 60%;   
+}
+
