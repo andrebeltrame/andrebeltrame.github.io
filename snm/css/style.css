@@ -2767,7 +2767,7 @@ address {
 
 .title-text h1 {
   margin: 0;
-  font-size: 28px;
+  font-size: 25px;
 }
 
 .title-text .entry-meta {
@@ -3786,7 +3786,7 @@ address {
   text-transform: uppercase;
 }
 
-.btn:before {
+/*.btn:before {
   content: '';
   display: block;
   position: absolute;
@@ -3809,7 +3809,7 @@ address {
   -ms-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-}
+}*/
 
 .btn:hover {
   -webkit-transition: all 0.3s ease-in-out;
@@ -3820,9 +3820,9 @@ address {
   color: #fff;
 }
 
-.btn:hover:after {
+/* .btn:hover:after {
   height: 100%;
-}
+}*/
 
 .btn:hover span {
   color: #fff;
@@ -4235,6 +4235,7 @@ button.btn.btn-stroke {
 input.btn.btn-stroke:hover,
 button.btn.btn-stroke:hover {
   background-color: #b79d82;
+  color: #fff!important;
 }
 
 /*-------------------------------------------------------*/
