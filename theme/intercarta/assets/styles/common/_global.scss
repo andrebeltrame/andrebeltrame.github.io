@@ -1,0 +1,165 @@
+body, html {
+  font-size: 16px;
+}
+
+@media (min-width: $screen-md-min) {
+  body {
+    padding-top: 106px;
+  }
+}
+
+@for $i from 1 through 60 {
+  $dec: $i * 5;
+  // $px: $dec * 1px;
+  .padding-both-#{$dec}, .padding-top-#{$dec} {
+    padding-top: rem(55);
+  }
+  .padding-both-#{$dec}, .padding-bottom-#{$dec} {
+    padding-bottom: rem(55);
+  }
+  .padding-#{$dec} {
+    padding: rem(55);
+  }
+  .margin-both-#{$dec}, .margin-top-#{$dec} {
+    margin-top: rem(55);
+  }
+  .margin-both-#{$dec}, .margin-bottom-#{$dec} {
+    margin-bottom: rem(55);
+  }
+
+  @media (min-width: $screen-sm-min) {
+    .padding-both-#{$dec}, .padding-top-#{$dec} {
+      padding-top: rem($dec);
+    }
+    .padding-both-#{$dec}, .padding-bottom-#{$dec} {
+      padding-bottom: rem($dec);
+    }
+    .padding-#{$dec} {
+      padding: rem($dec);
+    }
+    .margin-both-#{$dec}, .margin-top-#{$dec} {
+      margin-top: rem($dec);
+    }
+    .margin-both-#{$dec}, .margin-bottom-#{$dec} {
+      margin-bottom: rem($dec);
+    }
+
+  }
+}
+
+.container-fluid {
+  max-width:1440px;
+}
+
+// Typo
+
+h2 {
+  font-size: 30px;
+  line-height: 35px;
+  font-weight: 900;
+  margin-bottom: 30px;
+
+  @media (min-width: $screen-sm-min) {
+    font-size: 45px;
+    line-height: 55px;
+    margin-bottom: 45px;
+  }
+
+  @media (min-width: $screen-lg-min) {
+    font-size: 65px;
+    line-height: 75px;
+  }
+}
+
+h3 {
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 300;
+
+  @media (min-width: $screen-sm-min) {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  @media (min-width: $screen-lg-min) {
+    font-size: 60px;
+  }
+}
+
+p {
+  font-size: rem(20);
+  line-height: rem(30);
+}
+
+
+/* Dots */
+.slick-slider {
+  &.slick-dotted {
+    margin-bottom: 100px;
+  }
+}
+
+.slick-dots {
+  position: absolute;
+  bottom: -45px;
+
+  display: block;
+
+  width: 100%;
+  padding: 0;
+
+  list-style: none;
+
+  text-align: center;
+  li {
+    position: relative;
+
+    display: inline-block;
+
+    width: 18px;
+    height: 18px;
+    margin: 0 5px;
+    padding: 0;
+
+    cursor: pointer;
+    button {
+      font-size: 0;
+      line-height: 0;
+
+      display: block;
+
+      width: 18px;
+      height: 18px;
+      padding: 5px;
+
+      cursor: pointer;
+
+      color: transparent;
+      border: 0;
+      outline: none;
+      background: transparent;
+      &:hover,
+      &:focus {
+        outline: none;
+        &:before {
+          opacity: 1;
+        }
+      }
+      &:before {
+        content: '';
+        position: absolute;
+        display: inline-block;
+        width: 18px;
+        height: 18px;
+        top:0;
+        left:0;
+        background-color: #fff;
+        border: 1px solid #878787;
+        border-radius: 50%;
+      }
+    }
+    &.slick-active button:before {
+      background-color: #878787;
+    }
+  }
+}

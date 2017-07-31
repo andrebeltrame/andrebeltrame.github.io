@@ -166,7 +166,7 @@
       <div class="container relative clearfix">
         <div class="title-holder">
           <div class="title-text">
-            <h1 class="uppercase">Minha Conta</h1>
+            <h1 class="uppercase">Meus Pedidos</h1>
             <ol class="breadcrumb">
                <li>
                 <a href="#">Home</a>
@@ -175,7 +175,7 @@
                 <a href="minha-conta.html">Minha Conta</a>
               </li>
               <li class="active">
-                Dados Pessoais
+                Meus pedidos
               </li>
             </ol>
           </div>
@@ -208,7 +208,7 @@
                 
               <ul class="mt-20">          
                   <li><a href="minha-conta.html">Dados Pessoais</a></li>
-                  <li><a href="meus-pedidos.html">Meus Pedidos</a></li>
+                  <li><a href="#">Meus Pedidos</a></li>
                    <li><a href="#">Rastrear pedidos</a></li>
                    <li><a href="#">Minhas Medidas</a></li>
                    <li><a href="#">Minhas Imagens</a></li>
@@ -221,67 +221,86 @@
             <div class="col-sm-10 mb-50">
               
               
-              
-              <div class="user-form">
-              <p class="form-row form-row-wide">
-                 <label>Nome:</label>
-                 <input type="text" class="input-text" value="André Beltrame" placeholder="" name="nome">
-              </p>
-              <div class="row row-10">
-                <div class="col-sm-6">
-                  <p class="form-row form-row-wide">
-                      <label>E-mail</label>
-                    <input type="text" class="input-text" value="andrebeltrame@gmail.com" placeholder="">
-                  </p>
-                </div>
-                
-                
-                <div class="col-sm-6">
-                  <p class="form-row form-row-wide">
-                      <label>Data de nascimento</label>
-                    <input type="text" class="input-text" value="03/02/1987" placeholder="">
-                  </p>
-                </div>
-              </div>
-              
-              
-              <div class="row row-10">
-                <div class="col-sm-6">
-                  <p class="form-row form-row-wide">
-                      <label>Telefone</label>
-                    <input type="text" class="input-text" value="0 41 95299700" placeholder="">
-                  </p>
-                </div>
-                
-                
-                <div class="col-sm-6">
-                  <p class="form-row form-row-wide">
-                      <label>Celular</label>
-                    <input type="text" class="input-text" value="041 95299700" placeholder="">
-                  </p>
-                </div>   
-              </div>
+              <div class="table-wrap mb-30">
+                <table class="shop_table cart table">
+                  <thead>
+                    <tr>
+                      <th colspan="2">Nome</th>
+                      <th>Data</th>
+                      <th>Status</th>
+                      <th colspan="2">Preço</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="cart_item">
+                      <td class="product-thumbnail">
+                        <a href="#">
+                          <img src="img/shop/shop_item_3.jpg" alt="">
+                        </a>
+                      </td>
+                      <td class="product-name">
+                        <a href="#">Kelly</a>
+                        <ul>
+                          <li>Data: 12/12/12</li>
+                          <li>Tamanho: 38</li>
+                        </ul>
+                      </td>
+                      <td class="product-date">
+                        <span class="date-item">12/12/12</span>
+                      </td>
+                      <td class="product-status">
+                        <div class="status">                  
+                          
+                         Aguardando pagamento
+                         
+                        </div>
+                      </td>
+                      <td class="product-date">
+                        <span class="date-item">12/12/12</span>
+                      </td>
+                      <td class="product-remove">
+                        <a href="#" class="remove" title="Deletar produto">
+                          <i class="ui-close"></i>
+                        </a>
+                      </td>
+                    </tr>
 
-              <div class="row row-10">
-                <div class="col-sm-6">
-                  <p class="form-row form-row-wide">
-                      <label>CPF</label>
-                    <input type="password" class="input-text" value="" placeholder="Senha">
-                  </p>
-                </div>
-                
-                <div class="col-sm-6">
-                  <p class="form-row form-row-wide">
-                      <label>RG</label>
-                    <input type="text" class="input-text" value="8.610.556.0" placeholder="">
-                  </p>
-                </div>
+                    <tr class="cart_item">
+                      <td class="product-thumbnail">
+                        <a href="#">
+                          <img src="img/shop/shop_item_7.jpg" alt="">
+                        </a>
+                      </td>
+                      <td class="product-name">
+                        <a href="#">Flowe Dance</a>
+                        <ul>
+                          <li>Data: 12/12/12</li>
+                          <li>Color: Black</li>
+                        </ul>
+                      </td>
+                      <td class="product-price">
+                        <span class="amount">R$240.00</span>
+                      </td>
+                      <td class="product-status">
+                        <div class="status">                  
+                          
+                         Aguardando pagamento
+                         
+                        </div>
+                      </td>
+                      <td class="product-subtotal">
+                        <span class="amount">R$240.00</span>
+                      </td>
+                      <td class="product-remove">
+                        <a href="#" class="remove" title="Deletar produto">
+                          <i class="ui-close"></i>
+                        </a>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
-
-              <p>
-                <input type="submit" value="Salvar dados" class="btn btn-lg btn-stroke mt-10 mb-mdm-40">
-              </p>                
-            </div>              
+                         
               
               
               

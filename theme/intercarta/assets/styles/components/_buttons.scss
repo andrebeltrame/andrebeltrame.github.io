@@ -1,0 +1,51 @@
+.btn {
+  @include button-size(18px, 50px, $font-size-base, $line-height-base, $btn-border-radius-base);
+  border-width: 2px;
+  text-transform: uppercase;
+}
+
+.btn-line-white {
+  @include button-variant($white, transparent, $white);
+  &:hover {
+    background-color: $white;
+    border-color: $white;
+    color: #747474;
+  }
+}
+
+.btn-white {
+  @include button-variant($gray, $white, $white);
+}
+
+.btn-bruise {
+  @include button-variant($white, $bruise, $bruise);
+}
+
+.btn-dark-coral {
+  @include button-variant($white, $dark-coral, $dark-coral);
+}
+
+.btn-dark-bruise {
+  @include button-variant($white, $dark-bruise, $dark-bruise);
+}
+
+.btn-dark-grey-blue {
+  @include button-variant($white, $dark-grey-blue, $dark-grey-blue);
+}
+
+.btn-next {
+  background-repeat: no-repeat;
+  background-position: right 50px center ;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMiIgaGVpZ2h0PSIyMSIgdmlld0JveD0iMCAwIDEyIDIxIj4gIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9IjIiIHRyYW5zZm9ybT0icm90YXRlKDQ1IC0xLjMxOCAzLjY0NikiIHN0cm9rZS1saW5lY2FwPSJzcXVhcmUiPiAgICA8cGF0aCBkPSJNLjc2MjE0NTk4ZS0xMi0uMzY0MjQyMDVlLTEyTDExLjc0NzQwOTgtLjM2NDI0MjA1ZS0xMk0xMS43NjE5MDQ4LjMyNTgxNDUzNkwxMS43NjE5MDQ4IDEyLjA3MzIyNDMiLz4gIDwvZz48L3N2Zz4=);
+  padding-left: 96px;
+  padding-right: 96px;
+}
+
+@media (max-width: $screen-sm-max) {
+  .btn-center-mobile {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+  }
+}

@@ -5476,7 +5476,8 @@ input[type=number] {
 
 .shop_table .product-name > a,
 .shop_table .product-price > span,
-.shop_table .product-subtotal > span {
+.shop_table .product-subtotal > span,
+.shop_table .product-date > span {
   color: #000;
 }
 
