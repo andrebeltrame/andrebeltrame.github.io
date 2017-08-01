@@ -162,60 +162,135 @@
       </nav> <!-- end navbar -->
     </header>
     
-    
-<!-- Page Title -->
-    <section class="page-title text-center bg-img overlay" style="background-image: url(img/page_title/about_us_title_bg.jpg)">
+<section class="page-title bg-light">
       <div class="container relative clearfix">
         <div class="title-holder">
           <div class="title-text">
-            <h1 class="uppercase">Novo usuário</h1>
+            <h1 class="uppercase">Minhas medidas</h1>
+            <ol class="breadcrumb">
+               <li>
+                <a href="#">Home</a>
+              </li>
+              <li>
+                <a href="minha-conta.html">Minha Conta</a>
+              </li>
+              <li class="active">
+                Minhas Medidas
+              </li>
+            </ol>
           </div>
         </div>
       </div>
-    </section>    
-    
+    </section>           
     
 
     <div class="content-wrapper oh">
 
-   <!-- Intro -->
-      <section class="section-wrap intro pb-0">
+  
+      <section class="section-wrap intro pb-0 pt-30">
         <div class="container">
           <div class="row">
-            <div class="col-sm-7 mb-50">
-              <h2 class="intro-heading">Entrar</h2>
               
               
-              <div class="login-form">
-              <p class="form-row form-row-wide">
-                <input type="text" class="input-text" value="" placeholder="E-mail" name="email">
-              </p>
+            <div class="col-sm-2">
+             
+                <div class="user-avatar">
+                    
+                    <p>Olá, André</p>
+                    
+                    <a href="#">
+                        <img src="https://scontent.fbfh3-1.fna.fbcdn.net/v/t31.0-8/1941456_10152421744572932_1573483865_o.jpg?oh=27025e802f7b83a6d80da383547bc57a&oe=5A330F8E" />
+                    </a>
+                    <p><a href="#">Editar foto</a></p>
+                    
+                </div>   
+                
+                
+              <ul class="mt-20">          
+                  <li><a href="minha-conta.html">Dados Pessoais</a></li>
+                  <li><a href="meus-pedidos.html">Meus Pedidos</a></li>
+                   <li><a href="#">Rastrear pedidos</a></li>
+                   <li><a href="#">Minhas Medidas</a></li>
+                   <li><a href="#">Minhas Imagens</a></li>
+                   <li><a href="#">Meus Favoritos</a></li>
+                  <li><a href="#">Trocar senha</a></li>
+                  <li><a href="#">Sair</a></li>
+              </ul>
+            </div> 
+              
+            <div class="col-sm-10 mb-50">
+              
+              <h4 class="mb-10">Preencha suas medidas abaixo</h4>
+              <p class="mb-30">Vamos semelecionar os melhores looks para você com base nestes dados</p> 
+            
+              <div class="user-form">
+                  <div class="row row-10">
+                    <div class="col-sm-4">
+                      <p class="form-row form-row-wide">
+                          <label>Altura</label>
+                        <input type="text" class="input-text" value="" placeholder="Não Sei" placeholder="">
+                      </p>
+                    </div>
+                
+                
+                <div class="col-sm-4">
+                  <p class="form-row form-row-wide">
+                      <label>Comprimento (do ombro aos pés)</label>
+                    <input type="text" class="input-text" value="" placeholder="Não sei">
+                  </p>
+                </div>
+                
+                
+                <div class="col-sm-4">
+                  <p class="form-row form-row-wide">
+                      <label>Busto</label>
+                    
+                <select name="" class="">
+                  <option>Selecione</option>
+                  <option value="">Não sei</option>
+                </select>
 
+                  </p>
+                </div>
+                
+              </div>
+              
+              
               <div class="row row-10">
-                <div class="col-sm-6">
+                    <div class="col-sm-4">
+                      <p class="form-row form-row-wide">
+                          <label>Cintura</label>
+                        <input type="text" class="input-text" value="" placeholder="Não Sei" placeholder="">
+                      </p>
+                    </div>
+                
+                
+                <div class="col-sm-4">
                   <p class="form-row form-row-wide">
-                    <input type="password" class="input-text" value="" placeholder="Senha">
+                      <label>Quadril</label>
+                    <input type="text" class="input-text" value="" placeholder="Não sei">
                   </p>
                 </div>
-                <div class="col-sm-6">
+                
+                
+                <div class="col-sm-4">
                   <p class="form-row form-row-wide">
-                    <a href="#">Esqueci minha senha</a>
+                      <label>Vestuário</label>
+                    <input type="text" class="input-text" value="" placeholder="Não sei">
                   </p>
                 </div>
+                
               </div>
 
               <p>
-                <input type="submit" value="Entrar" class="btn btn-lg btn-stroke mt-10 mb-mdm-40">
+                <input type="submit" value="Salvar minhas medidas" class="btn btn-lg btn-stroke mt-10 mb-mdm-40">
               </p>                
             </div>              
               
               
               
             </div>
-            <div class="col-sm-4 col-sm-offset-1">
-              <h2 class="intro-heading">Não tenho cadastro</h2>
-              <p><a href="#">Clique</a> e cadastre-se</p>
-          </div>
+           
           <hr class="mb-0">
         </div>
       </section> <!-- end intro -->
