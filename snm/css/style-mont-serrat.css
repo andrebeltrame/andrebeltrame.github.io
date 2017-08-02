@@ -665,7 +665,7 @@ ul {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Muli", sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin-top: 0;
   color: #000;
   font-weight: 700;
@@ -844,7 +844,7 @@ blockquote > span {
 }
 
 .dropcap {
-  font-family: "Muli", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .dropcap.style-1 {
@@ -1130,7 +1130,7 @@ header .flex-child.flex-right {
 }
 
 .navbar-nav > li > a {
-  font-family: "Muli", sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 0.01em;
@@ -1219,7 +1219,7 @@ header .flex-child.flex-right {
   -ms-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  font-family: "Muli", sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   font-weight: 400;
 }
@@ -1282,7 +1282,7 @@ header .flex-child.flex-right {
   display: block;
   margin-bottom: 15px;
   color: #fff;
-  font-family: "Muli", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 13px;
   font-weight: 600;
   line-height: 1;
@@ -1442,7 +1442,7 @@ header .flex-child.flex-right {
   border-left: none;
   border-right: none;
   border-bottom: 2px solid #ebebeb;
-  font-family: "Muli", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 32px;
   margin-bottom: 0;
   color: #000;
@@ -2372,7 +2372,7 @@ input.main-search-input:-ms-input-placeholder {
 
 .hero-message.style-2 .hero-subtitle {
   font-size: 47px;
-  font-family: "Muli", sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin-bottom: 0;
 }
 
@@ -2660,7 +2660,7 @@ address {
 .gmap-btn {
   background-color: #f7f8f9;
   color: #000;
-  font-family: "Muli", sans-serif;
+  font-family: "Montserrat", sans-serif;
   width: 100%;
   height: 70px;
   line-height: 70px;
@@ -2814,7 +2814,7 @@ address {
 /* About Us Page
 /*-------------------------------------------------------*/
 .result {
-  font-family: "Muli", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 24px;
   margin-bottom: 8px;
@@ -3662,7 +3662,7 @@ address {
   text-decoration: none;
   padding: 14px 20px;
   color: #7f7f7f;
-  font-family: "Muli", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;
@@ -3735,7 +3735,7 @@ address {
   margin-right: -1px;
   border: 1px solid #ebebeb;
   border-radius: 0;
-  font-family: "Muli", sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #7f7f7f;
   font-size: 12px;
   font-weight: 700;
@@ -3765,7 +3765,7 @@ address {
 }
 
 .btn {
-  font-family: "Muli", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 600;
   text-decoration: none;
   text-align: center;
@@ -4398,7 +4398,7 @@ table th {
   font-weight: bold;
   cursor: default;
   font-size: 11px;
-  font-family: "Muli", sans-serif;
+  font-family: "Montserrat", sans-serif;
   letter-spacing: 0.05em;
 }
 
@@ -4447,7 +4447,7 @@ table th {
 
 .hover-overlay .product-details > h3 {
   font-size: 18px;
-  font-family: "Muli", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   margin-top: 10px;
 }
@@ -4933,7 +4933,7 @@ h2.heading-frame {
   line-height: 14px;
   margin-bottom: 15px;
   font-size: 20px;
-  font-family: "Muli", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .product-list .product-details,
