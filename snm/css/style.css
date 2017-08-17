@@ -4404,12 +4404,10 @@ table th {
 
 .product-details {
   position: relative;
-  float: left;
-  max-width: 65%;
 }
 
 .product-item .price {
-  float: right;
+  
 }
 
 .price del {
@@ -4499,7 +4497,7 @@ table th {
 .product-img {
   position: relative;
   overflow: hidden;
-  margin-bottom: 24px;
+  margin-bottom: 10px;
 }
 
 .product-img:hover .product-actions {
