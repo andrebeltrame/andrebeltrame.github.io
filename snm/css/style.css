@@ -49,7 +49,7 @@
 }
 
 .section-wrap {
-  padding: 80px 0;
+  padding: 40px 0;
   overflow: hidden;
   background-attachment: fixed;
   background-size: cover;
@@ -4122,73 +4122,6 @@ select::-ms-expand {
 
 /* Checkboxes & Radio Buttons
 -------------------------------------------------------*/
-input[type="checkbox"] {
-  display: none;
-}
-
-input[type="checkbox"] + label:before {
-  width: 17px;
-  height: 17px;
-  content: "";
-  display: inline-block;
-  font-size: 13px;
-  margin: -4px 12px 0 0;
-  text-align: center;
-  vertical-align: middle;
-  cursor: pointer;
-  border: 1px solid #dedede;
-}
-
-input[type="checkbox"]:checked + label:before {
-  content: "\f0c8";
-  font-family: "FontAwesome";
-  color: #000;
-  font-size: 9px;
-  line-height: 16px;
-}
-
-input[type="checkbox"] + label,
-input[type="radio"] + label {
-  cursor: pointer;
-  margin-bottom: 0;
-  text-transform: none;
-  letter-spacing: normal;
-  color: #000;
-  font-size: 15px;
-}
-
-.radio-buttons > li,
-.checkboxes > li {
-  padding: 7px 0;
-}
-
-input[type="radio"] {
-  display: none;
-}
-
-input[type="radio"] + label:before {
-  display: inline-block;
-  content: "";
-  width: 17px;
-  height: 17px;
-  box-shadow: 0 0 0 1px #d4d4d4;
-  border-radius: 40px;
-  margin: -3px 10px 0 0;
-  outline: none;
-  vertical-align: middle;
-  cursor: pointer;
-  margin-bottom: 0;
-}
-
-input[type="radio"]:checked + label:before {
-  background-color: #171717;
-  border: 5px solid #fff;
-  padding: 1px;
-}
-
-input[type="radio"]:focus {
-  outline: none;
-}
 
 label {
   color: #000;
@@ -5453,8 +5386,8 @@ input[type=number] {
 
 .shop_table .product-thumbnail {
   padding: 30px 24px 30px 0;
-  width: 130px;
-  max-width: 130px;
+  width: 100px;
+  max-width: 100px;
   min-width: 80px;
 }
 
@@ -5850,7 +5783,7 @@ abbr.required {
     font-size: 19px;
   }
   .section-wrap {
-    padding: 80px 0;
+    padding: 40px 0;
     background-attachment: scroll !important;
     background-position: 50% 50% !important;
   }
